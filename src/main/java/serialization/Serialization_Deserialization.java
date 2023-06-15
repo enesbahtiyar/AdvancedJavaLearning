@@ -9,7 +9,7 @@ public class Serialization_Deserialization
         User user1 = new User("enes", 1L, "12345");
         User user2 = new User("esra", 2L, "12348");
         User user3 = new User("boncuk", 3L, "12346");
-        writeUserObject(user1,user2,user3);
+        //writeUserObject(user1,user2,user3);
         readUserObject("user.xyz");
     }
 
