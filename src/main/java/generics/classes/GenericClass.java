@@ -11,6 +11,8 @@ package generics.classes;
  */
 public class GenericClass<T>
 {
+
+
     public T type;
 
     public T getType() {
